@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "ce50f8bda7ebbf23",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdd551703531ed8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dbbfc995a5a992b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sauvegarde Obsidian Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sauvegarde Obsidian Git"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26f05e42633112b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "92ec7fc23c5edcfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b591227abf2ac352",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "07b371a8aa8cdb8e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#NODE-RED",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "adcfcb6a06c6525c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          },
+          {
+            "id": "a8aa08af442dec25",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "749e1b23e7064f2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "094d344c7f5d31be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2855dfa7776edd96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LIBERER LES PORTS EN CONFLITS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour LIBERER LES PORTS EN CONFLITS"
+            }
+          },
+          {
+            "id": "0c6d7f7ed31e1e36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LIBERER LES PORTS EN CONFLITS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de LIBERER LES PORTS EN CONFLITS"
+            }
+          },
+          {
+            "id": "cf1375a7d355deff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "b478975e1dc66d3c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LIBERER LES PORTS EN CONFLITS.md"
+              },
+              "icon": "lucide-list",
+              "title": "Plan de LIBERER LES PORTS EN CONFLITS"
+            }
+          },
+          {
+            "id": "cbe56fb18594b742",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1bf33519a0c8daf7",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "f7d5f5fb4f01fb27",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "181feee4162ea72f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "f7d5f5fb4f01fb27",
+  "lastOpenFiles": [
+    "obsidian-vault",
+    "Sauvegarde Obsidian Git.md",
+    "Création d'une salle serveur.md",
+    "Réinitialiser configuration réseau.md",
+    "Poste client et serveur Linux.md",
+    "ACTIVE DIRECTORY.md",
+    "==Support Mise à Disposition Informatique==.md",
+    "Sans titre.canvas",
+    "GOUVERNANCE ET GESTION DU RISQUE.md",
+    "ebios_risk_manager_workshops_fr.jpg",
+    "DEMARRAGE DE CONTENEURS DANS PORTAINERS SUITE REDEMARRAGE SERVEUR.md",
+    "TP-GPG.md",
+    "PRÉSERVATION DE L'IDENTITÉ NUMÉRIQUE.md",
+    "Pasted image 20250205113206.jpg",
+    "Bienvenue.md",
+    "2025-02-05.md",
+    "Pasted image 20250205094608.jpg",
+    "LIBERER LES PORTS EN CONFLITS.md",
+    "Sans titre"
+  ]
+}

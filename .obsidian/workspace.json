@@ -223,10 +223,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f7d5f5fb4f01fb27",
+  "active": "a8aa08af442dec25",
   "lastOpenFiles": [
-    "obsidian-vault",
+    "Sans titre.md",
     "Sauvegarde Obsidian Git.md",
+    "backup-obsidian.bat",
+    "obsidian-vault",
     "Création d'une salle serveur.md",
     "Réinitialiser configuration réseau.md",
     "Poste client et serveur Linux.md",

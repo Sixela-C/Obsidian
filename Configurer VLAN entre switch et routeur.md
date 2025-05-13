@@ -1,6 +1,5 @@
 ---
-up:
-  - "[[]]"
+up: []
 ---
 Sur le switch :
 vlan <n°>
@@ -16,6 +15,9 @@ switchport mode trunk
 Sur le routeur :
 interface <n° interface>.<n° vlan>
 encapsulation dot1Q <n° vlan>
-ip address <adresse réseau du vlan> <masque de sous-réseau du vlan>
+ip address <adresse passerelle du vlan sur le routeur> <masque de sous-réseau du vlan>
 no shutdown
 exit
+
+Sur le client :
+gateway = adresse réseau du vlan

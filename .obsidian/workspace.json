@@ -62,9 +62,51 @@
               "icon": "lucide-file",
               "title": "Configurer VLAN entre switch et routeur"
             }
+          },
+          {
+            "id": "4b34aa5ed8ea761c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS AD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DNS AD"
+            }
+          },
+          {
+            "id": "f2a1c689fe13cb0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DHCP AD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DHCP AD"
+            }
+          },
+          {
+            "id": "32e38a08ffaed030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Synthèse AD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Synthèse AD"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -266,10 +308,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1c865c43abb43193",
+  "active": "32e38a08ffaed030",
   "lastOpenFiles": [
-    "Configurer routeur OSPF.md",
+    "Synthèse AD.md",
+    "DHCP AD.md",
+    "DNS AD.md",
     "Configurer VLAN entre switch et routeur.md",
+    "Configurer routeur OSPF.md",
     "Configurer route statique.md",
     "Sauvegarde Obsidian Git.md",
     "Sans titre.md",

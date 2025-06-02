@@ -20,4 +20,4 @@ no shutdown
 exit
 
 Sur le client :
-gateway = adresse réseau du vlan
+gateway = adresse passerelle du vlan sur le routeur

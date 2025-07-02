@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Fiches révisions]]"
 ---
 ## 📊 Schéma simplifié : DNS & Active Directory
 

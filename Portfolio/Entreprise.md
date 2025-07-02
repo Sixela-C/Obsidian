@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Portfolio]]"
 ---
 ## Delivagri – AgTech innovante à Angers
 

@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Portfolio]]"
 ---
 Mise en place d'un serveur de virtualisation Proxmox
 Mise en place d'une cluster Proxmox (entre 2 serveurs Proxmox)

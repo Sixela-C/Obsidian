@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Fiches révisions]]"
 ---
 # 🌐 Fiche de synthèse — ITIL (Information Technology Infrastructure Library)
 

@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Portfolio]]"
 ---
 Installation et prise en main de Oracle VirtualBox sur Linux
 Installation et prise en main de VMWare sur Windows

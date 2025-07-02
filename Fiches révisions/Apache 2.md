@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Fiches révisions]]"
 ---
 ## 🎯 Objectif :
 

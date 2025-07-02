@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Fiches révisions]]"
 ---
 # 🧠 Fiche de Révision Complète – Active Directory (AD)
 

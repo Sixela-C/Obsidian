@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Fiches révisions]]"
 ---
 ## 🧠 1. Qu’est-ce que le DHCP ?
 

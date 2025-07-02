@@ -56,14 +56,12 @@ newgrp docker
 ```bash
 docker run hello-world
 ```
-
 _Remarques_ : 
   Si l'erreur suivante s'affiche :
 ```bash
 WARNING: Error loading config file: /home/user/.docker/config.json -stat /home/user/.docker/config.json: permission denied
 ```
-   
-  alors changer la propriété et les permission du répertoire ~/.docker/ :
+     alors changer la propriété et les permission du répertoire ~/.docker/ :
 ```bash
 sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
 sudo chmod g+rwx "$HOME/.docker" -R
@@ -74,7 +72,6 @@ sudo chmod g+rwx "$HOME/.docker" -R
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
-
 _Remarques_ :
   Pour stopper Docker afin qu'il ne démarre pas au démarrage du système avec **systemd** :
 ```bash
@@ -83,7 +80,7 @@ sudo systemctl disable containerd.service
 ```
 
 10. Configurer le fichier de gestion des logs par défaut **json-file** :
-	_**Cf. [[Docker - Gestion des Logs]]**_
+	Cf. [_**Docker - Gestion des Logs**_](docker-gestion-logs.md)
 
   
-
+/

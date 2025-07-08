@@ -1,0 +1,62 @@
+---
+up:
+  - "[[]]"
+---
+# A
+- Algobox
+- Anaphraseus
+# B
+- Basic-miktex
+# D
+- Debian
+# E
+- Ext2Fsd
+# G
+- Git
+- GParted
+- gpedit
+# L
+- LibreOffice
+	- Grammalecte
+	- LanguageTool
+	- Writer2latex
+	- TexMaths
+# M
+- Medicat
+- mRemoteNG
+# N
+- Nagios
+- Netgate
+- NMap
+- Node
+# O
+- Obsidian
+- OCSInventory
+- OnlyOffice
+- OpenVPN
+# P
+- pfSense
+- PIA
+- Python
+- Proxmox
+- PSTools
+- Putty
+# R
+- RClone
+- Rufus
+- RunAsTools
+# S
+- Synergy
+- SysinternalsSuite
+# U
+- Ubuntu
+# V
+- Ventoy
+- VirtualBox
+- VMWare
+- VSCode
+# W
+- WinSCP
+- Wireguard
+# X
+- Xampp

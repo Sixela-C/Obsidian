@@ -132,9 +132,23 @@
               "icon": "lucide-file",
               "title": "Linux Debian - Installation et configuration"
             }
+          },
+          {
+            "id": "10d674aada4e3be3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio/Compétences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Compétences"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 392.5
   },
   "right": {
     "id": "749e1b23e7064f2c",
@@ -335,8 +349,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82c5d3a685d88384",
+  "active": "03198e9cc5e2fd2a",
   "lastOpenFiles": [
+    "Sans titre 3.md",
+    "Sans titre 2.md",
+    "Portfolio/Compétences.md",
+    "Portfolio/À propos.md",
+    "Portfolio/Accueil.md",
+    "NextCloud + TrueNAS ou OMV.md",
+    "Préparation Épreuve E5 - Portfolio.md",
+    "Linux Debian - Installation et configuration.md",
     "image-6.png",
     "image-5.png",
     "image-4.png",
@@ -344,12 +366,8 @@
     "image-2.png",
     "image-1.png",
     "image.png",
-    "Linux Debian - Installation et configuration.md",
-    "Sans titre 3.md",
-    "Sans titre 2.md",
     "GLPI.md",
     "Réalisation E6.md",
-    "Préparation Épreuve E5 - Portfolio.md",
     "Liste des logiciels utiles.md",
     "Sans titre.md",
     "MKDocs.md",
@@ -363,9 +381,6 @@
     "Portfolio/Parcours scolaire.md",
     "Portfolio/Formation.md",
     "Portfolio/Entreprise.md",
-    "Portfolio/Compétences.md",
-    "Portfolio/Accueil.md",
-    "Portfolio/À propos.md",
     "Portfolio/Veille technologique.md",
     "Fiches révisions/Synthèse AD.md",
     "Sans titre 1.md",
@@ -374,7 +389,6 @@
     "Images/image-14.png",
     "Images/image-13.png",
     "Images/image-12.png",
-    "Images/image-11.png",
     "Images",
     "Nouveau dossier",
     "Fiches révisions",

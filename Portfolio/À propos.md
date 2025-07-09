@@ -5,7 +5,7 @@ up:
 ---
 ## Présentation
 
-Moi c'est Alexis COURTIN, alternant en reconversion professionnelle en première année de BTS SIO (Services Informatiques aux Organisations), option SISR (Solutions d'Infrastructures Systèmes et Réseaux) à My Digital School - Campus ESPL de Angers (49100).
+Je me présente, Alexis COURTIN, alternant en reconversion professionnelle en première année de BTS SIO (Services Informatiques aux Organisations), option SISR (Solutions d'Infrastructures Systèmes et Réseaux) à My Digital School - Campus ESPL de Angers (49100).
 
 Je suis titulaire d'un baccalauréat Scientifique spécialité Sciences et Vie de la Terre et d'un BTS Analyses Biologiques.
 

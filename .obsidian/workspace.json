@@ -62,20 +62,6 @@
             }
           },
           {
-            "id": "e8cae37717be4884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GLPI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GLPI"
-            }
-          },
-          {
             "id": "ede0fe35fee7475b",
             "type": "leaf",
             "state": {
@@ -104,35 +90,21 @@
             }
           },
           {
-            "id": "82c5d3a685d88384",
+            "id": "4694dcb014d9be35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Debian - Installation et configuration.md",
+                "file": "WordPress - Installation et configuration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Debian - Installation et configuration"
-            }
-          },
-          {
-            "id": "10d674aada4e3be3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Compétences.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Compétences"
+              "title": "WordPress - Installation et configuration"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -199,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 200
   },
   "right": {
     "id": "749e1b23e7064f2c",
@@ -333,8 +305,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82c5d3a685d88384",
+  "active": "4694dcb014d9be35",
   "lastOpenFiles": [
+    "Réalisation E6.md",
+    "WordPress - Installation et configuration.md",
+    "Sans titre 3.md",
+    "LAMP - Installation et configuration.md",
+    "Sans titre 2.md",
+    "GLPI.md",
+    "Portfolio/Compétences.md",
+    "Linux Debian - Installation et configuration.md",
     "image-35.png",
     "image-34.png",
     "image-33.png",
@@ -345,10 +325,6 @@
     "image-28.png",
     "image-27.png",
     "image-26.png",
-    "image-25.png",
-    "Sans titre 3.md",
-    "Sans titre 2.md",
-    "GLPI.md",
     "Excalidraw/Drawing 2025-07-09 11.58.30.excalidraw.md",
     "CISCO - Connexion à l'interface d'administration d'un switch.md",
     "Excalidraw",
@@ -359,20 +335,16 @@
     "Portfolio/Parcours scolaire.md",
     "Portfolio/Formation.md",
     "Portfolio/Entreprise.md",
-    "Portfolio/Compétences.md",
     "Portfolio/À propos.md",
     "Préparation Épreuve E5 - Portfolio.md",
     "Portfolio/Accueil.md",
     "NextCloud + TrueNAS ou OMV.md",
-    "Linux Debian - Installation et configuration.md",
-    "Réalisation E6.md",
     "Sans titre.md",
     "MKDocs.md",
     "Fiches révisions/Fiches Cyberattaque.md",
     "Portfolio/Réalisations personnelles.md",
     "Fiches révisions/cyberattaques_bts_sio.md",
     "Portfolio/Réalisations en entreprise.md",
-    "Portfolio/Réalisations en cours de formation.md",
     "Sans titre",
     "docs",
     "Images",

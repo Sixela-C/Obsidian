@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Documentation professionnelle]]"
+  - "[[Documentation personnelle]]"
 ---
 
 ---

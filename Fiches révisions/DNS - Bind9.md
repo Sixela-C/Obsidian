@@ -2,13 +2,13 @@
 up:
   - "[[Fiches révisions]]"
 ---
-## 🎯 Objectif :
+## Objectif :
 
 Mettre en place un serveur DNS local avec **Bind9**, pour résoudre un domaine personnalisé (ex: `monreseau.local`).
 
 ---
 
-## ✅ 1. Installation de Bind9
+## 1. Installation de Bind9
 
 ```bash
 sudo apt update
@@ -17,7 +17,7 @@ sudo apt install bind9 bind9utils bind9-doc dnsutils
 
 ---
 
-## ✅ 2. Fichiers de configuration principaux
+## 2. Fichiers de configuration principaux
 
 | Fichier                              | Rôle                                              |
 | ------------------------------------ | ------------------------------------------------- |
@@ -30,7 +30,7 @@ sudo apt install bind9 bind9utils bind9-doc dnsutils
 
 ---
 
-## ✅ 3. Configuration : zone directe et inverse
+## 3. Configuration : zone directe et inverse
 
 ### ➤ `/etc/bind/named.conf.options`
 
@@ -83,7 +83,7 @@ zone "1.168.192.in-addr.arpa" {
 
 ---
 
-## ✅ 4. Création des fichiers de zone
+## 4. Création des fichiers de zone
 
 ### ➤ Zone directe : `/var/cache/bind/db.monreseau.local`
 
@@ -134,7 +134,7 @@ $TTL    86400
 
 ---
 
-## ✅ 5. Vérification de la config
+## 5. Vérification de la config
 
 ```bash
 sudo named-checkconf
@@ -144,7 +144,7 @@ sudo named-checkzone 1.168.192.in-addr.arpa /var/cache/bind/db.192.168.1
 
 ---
 
-## ✅ 6. Redémarrage de Bind9
+## 6. Redémarrage de Bind9
 
 ```bash
 sudo systemctl restart bind9
@@ -153,7 +153,7 @@ sudo systemctl enable bind9
 
 ---
 
-## ✅ 7. Tester avec `dig` ou `nslookup`
+## 7. Tester avec `dig` ou `nslookup`
 
 ```bash
 dig @127.0.0.1 pc1.monreseau.local

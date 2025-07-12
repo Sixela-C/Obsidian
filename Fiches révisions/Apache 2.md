@@ -2,22 +2,18 @@
 up:
   - "[[Fiches révisions]]"
 ---
-## 🎯 Objectif :
-
+## Objectif :
 Installer et configurer Apache2 pour héberger un ou plusieurs sites web sur un serveur local.
 
 ---
-
-## ✅ 1. Installation du serveur Apache
-
+## 1. Installation du serveur Apache :
 ```bash
 sudo apt update
 sudo apt install apache2
 ```
 
 ---
-
-## ✅ 2. Fichiers de configuration importants
+## 2. Fichiers de configuration importants :
 
 |Fichier / Dossier|Rôle|
 |---|---|
@@ -30,8 +26,7 @@ sudo apt install apache2
 |`/var/log/apache2/`|Dossier des logs (access.log, error.log)|
 
 ---
-
-## ✅ 3. Commandes utiles
+## 3. Commandes utiles :
 
 ```bash
 # Redémarrer Apache
@@ -48,8 +43,7 @@ sudo apache2ctl configtest
 ```
 
 ---
-
-## ✅ 4. Exemple : créer un site web personnalisé
+## 4. Exemple : créer un site web personnalisé :
 
 ### ➤ 1. Créer le dossier du site
 
@@ -63,8 +57,6 @@ sudo chown -R www-data:www-data /var/www/mon-site.local
 ```bash
 echo "<h1>Bienvenue sur mon-site.local</h1>" | sudo tee /var/www/mon-site.local/index.html
 ```
-
----
 
 ### ➤ 3. Créer un VirtualHost
 
@@ -91,8 +83,6 @@ Contenu :
 </VirtualHost>
 ```
 
----
-
 ### ➤ 4. Activer le site
 
 ```bash
@@ -105,25 +95,22 @@ Et recharger Apache :
 sudo systemctl reload apache2
 ```
 
----
-
 ### ➤ 5. Ajouter l'entrée DNS (sur la machine cliente ou locale)
 
-Pour tester en local, ajoute dans `/etc/hosts` :
+Pour tester en local, éditer le fichier **/etc/hosts** :
 
 ```bash
 sudo nano /etc/hosts
 ```
 
-Ajoute :
+Puis ajouter :
 
 ```
 127.0.0.1 mon-site.local
 ```
 
 ---
-
-## ✅ 5. Modules utiles à activer
+## 5. Modules utiles à activer :
 
 ```bash
 sudo a2enmod rewrite
@@ -131,8 +118,7 @@ sudo systemctl restart apache2
 ```
 
 ---
-
-## ✅ 6. Exemple : activer SSL (HTTPS)
+## 6. Exemple : activer SSL (HTTPS) :
 
 ```bash
 sudo a2enmod ssl
@@ -140,7 +126,7 @@ sudo a2ensite default-ssl.conf
 sudo systemctl reload apache2
 ```
 
-Tu peux aussi générer un **certificat auto-signé** pour les tests :
+Possibilité de générer un **certificat auto-signé** pour les tests :
 
 ```bash
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
@@ -148,4 +134,4 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   -out /etc/ssl/certs/apache-selfsigned.crt
 ```
 
-Et adapter le `VirtualHost` en `:443` avec les bons chemins vers le certificat.
+Puis adapter le **VirtualHost** avec le port **443** et les chemins vers le certificat.

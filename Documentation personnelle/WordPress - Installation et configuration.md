@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[]]"
+  - "[[Documentation personnelle]]"
 ---
 ---
 ## Objectif :
@@ -131,3 +131,25 @@ sudo rm /var/www/html/wp-config-sample.php
 sudo chmod 400 /var/www/html/wp-config.php
 ```
 
+---
+## 5. Installer l'interface en ligne de commande **WP-CLI** :
+### 5.1. Télécharger le fichier **wp-cli.phar** :
+```bash
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+```
+### 5.2. Vérifier que le fichier téléchargé est fonctionnel :
+```bash
+php wp-cli.phar --info
+```
+### 5.3. Rendre le fichier téléchargé exécutable et le déplacer dans **PATH** :
+```bash
+chmod +x wp-cli.phar sudo mv wp-cli.phar /usr/local/bin/wp
+```
+### 5.4. Vérifier que l'installation a été effectuée avec succès :
+```bash
+wp --info
+```
+### 5.5. Mettre à jour :
+```bash
+wp cli update
+```

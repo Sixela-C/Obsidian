@@ -2,13 +2,12 @@
 up:
   - "[[Fiches révisions]]"
 ---
-## 🎯 Objectif :
+## Objectif :
 
 Attribuer automatiquement des adresses IP aux machines du réseau local (par exemple, `192.168.1.100` à `192.168.1.200`), avec un serveur Linux configuré comme **DHCP**.
 
 ---
-
-## ✅ 1. Installation du serveur DHCP
+## 1. Installation du serveur DHCP :
 
 ```bash
 sudo apt update
@@ -16,8 +15,7 @@ sudo apt install isc-dhcp-server
 ```
 
 ---
-
-## ✅ 2. Fichiers de configuration importants
+## 2. Fichiers de configuration importants :
 
 |Fichier|Rôle|
 |---|---|
@@ -25,32 +23,31 @@ sudo apt install isc-dhcp-server
 |`/etc/default/isc-dhcp-server`|Interface réseau utilisée par le serveur|
 
 ---
-
-## ✅ 3. Configuration du DHCP
+## 3. Configuration du DHCP :
 
 ### ➤ 1. Interface à utiliser
+Éditer le fichier **isc-dhcp-server** :
 
 ```bash
 sudo nano /etc/default/isc-dhcp-server
 ```
 
-Modifie cette ligne :
+Modifier cette ligne :
 
 ```bash
 INTERFACESv4="eth0"
 ```
 
-> Remplace `eth0` par le nom réel de ton interface réseau (`ip a` pour le trouver, souvent `enp0s3`, `ens33`, etc.)
-
----
+> Remplacer **eth0** par le nom réel de l'interface réseau.
 
 ### ➤ 2. Fichier de configuration principal
 
+- Éditer le fichier de **dhcpd.conf** :
 ```bash
 sudo nano /etc/dhcp/dhcpd.conf
 ```
 
-Exemple minimal pour un réseau `192.168.1.0/24` :
+Exemple pour un réseau `192.168.1.0/24` :
 
 ```conf
 # Paramètres globaux
@@ -68,11 +65,9 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 }
 ```
 
----
-
 ### ➤ 3. Réservation statique (optionnel)
 
-Toujours dans `dhcpd.conf`, tu peux réserver une IP pour un appareil :
+Possibilité de réserver une IP dans le fichier **dhcpd.conf** :
 
 ```conf
 host imprimante {
@@ -82,16 +77,14 @@ host imprimante {
 ```
 
 ---
-
-## ✅ 4. Vérification de la configuration
+## 4. Vérification de la configuration
 
 ```bash
 sudo dhcpd -t -cf /etc/dhcp/dhcpd.conf
 ```
 
 ---
-
-## ✅ 5. Activer et démarrer le service
+## 5. Activer et démarrer le service :
 
 ```bash
 sudo systemctl restart isc-dhcp-server
@@ -99,26 +92,22 @@ sudo systemctl enable isc-dhcp-server
 ```
 
 ---
+## 6. Logs et diagnostic :
 
-## ✅ 6. Logs et diagnostic
-
-- Vérifie les logs :
-    
+- Vérifier les logs :
 
 ```bash
 journalctl -u isc-dhcp-server
 ```
 
 - Voir les baux (adresses louées) :
-    
 
 ```bash
 cat /var/lib/dhcp/dhcpd.leases
 ```
 
 ---
-
-## ➕ Bonus : Config pour plusieurs sous-réseaux (exemple)
+## 7. Config pour plusieurs sous-réseaux :
 
 ```conf
 subnet 192.168.1.0 netmask 255.255.255.0 {

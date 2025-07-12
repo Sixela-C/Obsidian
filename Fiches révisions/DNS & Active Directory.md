@@ -2,7 +2,7 @@
 up:
   - "[[Fiches révisions]]"
 ---
-## 📊 Schéma simplifié : DNS & Active Directory
+## Schéma simplifié : DNS & Active Directory
 
 ```plaintext
         +----------------------+
@@ -34,34 +34,20 @@ up:
 ```
 
 ---
-
-## 📝 Fiche de révision : DNS & Active Directory
-
-### 🧠 1. Définition du DNS
-
-- **DNS = Domain Name System**
-    
+### 1. Définition du DNS
+- **DNS = Domain Name System*
 - Traduit les **noms de domaines ↔ adresses IP**
-    
 - Utilisé dans tous les réseaux TCP/IP
-    
 
 ---
-
-### 🏢 2. Rôle du DNS dans Active Directory
-
+### 2. Rôle du DNS dans Active Directory
 - **AD utilise le DNS** pour :
-    
     - Localiser les **contrôleurs de domaine (DC)**
-        
     - Trouver les **services réseau (LDAP, Kerberos, etc.)**
-        
 - Utilise des **enregistrements SRV** pour identifier les services
-    
 
 ---
-
-### 📂 3. Types d’enregistrements utiles
+### 3. Types d’enregistrements utiles
 
 |Type|Fonction|
 |---|---|
@@ -73,38 +59,21 @@ up:
 |MX|Serveur de messagerie|
 
 ---
-
-### 🛠️ 4. Configuration recommandée en AD
-
+### 4. Configuration recommandée en AD
 - **Serveur DNS intégré à Active Directory**
-    
     - Zone **sécurisée**
-        
     - Réplication entre DC
-        
 - Le nom de **la zone DNS = nom du domaine AD** (ex: `entreprise.local`)
-    
 - Le serveur DNS est souvent le **DC principal**
-    
 
 ---
-
-### ⚠️ 5. Pièges à éviter
-
+### 5. Pièges à éviter
 - Utiliser **DNS externes** (ex : Google 8.8.8.8) → ça bloque AD
-    
 - Mauvaise configuration des zones ou des enregistrements SRV
-    
 - Oublier d’activer les **mises à jour dynamiques sécurisées**
-    
 
 ---
-
-### ✅ 6. À retenir
-
+### 6. À retenir
 - **DNS est vital pour qu’un client AD trouve le DC**
-    
 - **SRV = cœur de la localisation des services AD**
-    
 - **Toujours configurer le poste client pour qu’il pointe vers le DNS interne**
-    

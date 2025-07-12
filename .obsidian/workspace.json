@@ -4,107 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0cec9d1fe3573c54",
+        "id": "a35b4f82d8eb405c",
         "type": "tabs",
         "children": [
           {
-            "id": "17a46b2e99260658",
+            "id": "7a98ae28e2e368bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MKDocs.md",
+                "file": "Module 3 - Unité 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MKDocs"
-            }
-          },
-          {
-            "id": "975d0796e4477d09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CISCO - Connexion à l'interface d'administration d'un switch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CISCO - Connexion à l'interface d'administration d'un switch"
-            }
-          },
-          {
-            "id": "040086c90b43a60c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-07-09 11.58.30.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-09 11.58.30.excalidraw"
-            }
-          },
-          {
-            "id": "17283246c03c3417",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Réalisation E6.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Réalisation E6"
-            }
-          },
-          {
-            "id": "ede0fe35fee7475b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sans titre 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sans titre 2"
-            }
-          },
-          {
-            "id": "da211e9acdd8f51a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sans titre 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sans titre 3"
-            }
-          },
-          {
-            "id": "4694dcb014d9be35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WordPress - Installation et configuration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WordPress - Installation et configuration"
+              "title": "Module 3 - Unité 1"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -305,55 +222,55 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4694dcb014d9be35",
+  "active": "7a98ae28e2e368bb",
   "lastOpenFiles": [
-    "Réalisation E6.md",
-    "WordPress - Installation et configuration.md",
-    "Sans titre 3.md",
-    "LAMP - Installation et configuration.md",
-    "Sans titre 2.md",
-    "GLPI.md",
-    "Portfolio/Compétences.md",
-    "Linux Debian - Installation et configuration.md",
-    "image-35.png",
-    "image-34.png",
-    "image-33.png",
-    "image-32.png",
-    "image-31.png",
-    "image-30.png",
-    "image-29.png",
-    "image-28.png",
-    "image-27.png",
-    "image-26.png",
+    "Module 3 - Unité 1.md",
+    "Fiches révisions/DHCP - ISC-DHCP-SERVER.md",
+    "Fiches révisions/Apache 2.md",
+    "Fiches révisions/DNS & Active Directory.md",
+    "Fiches révisions/DHCP & Active Directory.md",
+    "Fiches révisions/DNS - Bind9.md",
+    "Fiches révisions/Réseau informatique - Dépannage.md",
     "Excalidraw/Drawing 2025-07-09 11.58.30.excalidraw.md",
-    "CISCO - Connexion à l'interface d'administration d'un switch.md",
+    "Sauvegarde Obsidian Git.md",
+    "SSH - Connexion simplifiée.md",
+    "Préparation Épreuve E5 - Portfolio.md",
+    "NextCloud + TrueNAS ou OMV.md",
+    "MKDocs.md",
+    "Liste des logiciels utiles.md",
+    "docs.md",
+    "Dépannage Réseau Informatique.md",
+    "Sans titre 1.md",
+    "Fiches révisions/CYBERSÉCURITÉ & CYBERATTAQUES.md",
+    "Fiches révisions/cyberattaques_bts_sio.md",
+    "Fiches révisions/fiches_cyberattaques_bts.md",
+    "Documentation personnelle/Linux Debian - Installation et configuration.md",
+    "WordPress - Installation et configuration.md",
+    "Documentation personnelle/WordPress - Installation et configuration.md",
+    "serveur-linux.md",
+    "Réalisation E6.md",
+    "Réseau informatique - Dépannage.md",
+    "Documentation personnelle",
+    "Nouveau dossier",
+    "Images/image-35.png",
+    "Images/image-34.png",
+    "Images/image-33.png",
+    "Images/image-32.png",
+    "Images/image-31.png",
+    "Images/image-30.png",
+    "Images/image-29.png",
+    "Images/image-28.png",
+    "Images/image-27.png",
+    "Images/image-26.png",
     "Excalidraw",
     "Images/Sans titre.canvas",
-    "Liste des logiciels utiles.md",
-    "Images/Untitled Kanban.md",
-    "docker-gestion-logs.md",
-    "Portfolio/Parcours scolaire.md",
-    "Portfolio/Formation.md",
-    "Portfolio/Entreprise.md",
-    "Portfolio/À propos.md",
-    "Préparation Épreuve E5 - Portfolio.md",
-    "Portfolio/Accueil.md",
-    "NextCloud + TrueNAS ou OMV.md",
-    "Sans titre.md",
-    "MKDocs.md",
-    "Fiches révisions/Fiches Cyberattaque.md",
-    "Portfolio/Réalisations personnelles.md",
-    "Fiches révisions/cyberattaques_bts_sio.md",
-    "Portfolio/Réalisations en entreprise.md",
     "Sans titre",
     "docs",
     "Images",
-    "Nouveau dossier",
     "Fiches révisions",
     "Portfolio",
     "Documentation professionnelle",
     "backup-obsidian.bat",
-    "obsidian-vault",
     "Sans titre.canvas"
   ]
 }
